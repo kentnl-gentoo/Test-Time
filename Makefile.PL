@@ -1,5 +1,5 @@
 BEGIN {
-	use inc::Module::Install;
+	use lib q[.]; use inc::Module::Install;
 
 	my @mip = qw(
 		Module::Install::AuthorTests
